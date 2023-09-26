@@ -1,5 +1,6 @@
 require("core.set")
 require("core.mapping")
+require("core.plugins")
 
 local augroup = vim.api.nvim_create_augroup
 local CoreGroup = augroup('Core', {})
